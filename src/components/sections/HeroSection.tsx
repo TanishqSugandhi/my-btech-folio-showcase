@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ChevronDown, Github, Linkedin, Mail } from "lucide-react";
-import heroImage from "@/assets/hero-tech.jpg";
+import heroImage from "@/assets/hero.png";
 
 const HeroSection = () => {
   const scrollToAbout = () => {
@@ -10,10 +10,10 @@ const HeroSection = () => {
   return (
     <section id="home" className="min-h-screen hero-section flex items-center justify-center relative overflow-hidden">
       {/* Background Image with Overlay */}
-      <div className="absolute inset-0 z-0">
+      <div className="absolute inset-0 z-10">
         <img 
           src={heroImage} 
-          alt="hero.png" 
+          alt="a picture of tanishq" 
           className="w-full h-full object-cover opacity-10"
         />
         <div className="absolute inset-0 bg-gradient-to-br from-background/90 to-background/70"></div>
@@ -25,6 +25,11 @@ const HeroSection = () => {
           <div className="mb-8 animate-fade-in">
             <div className="w-32 h-32 mx-auto rounded-full bg-gradient-primary shadow-glow animate-float flex items-center justify-center">
               <span className="text-2xl font-bold text-primary-foreground">JS</span>
+              <img 
+          src={heroImage} 
+          alt="a picture of tanishq" 
+          className="w-full h-full mx-auto rounded-full object-cover opacity-80"
+        />
             </div>
           </div>
 
