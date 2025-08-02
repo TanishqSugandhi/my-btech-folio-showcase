@@ -1,0 +1,89 @@
+import { Button } from "@/components/ui/button";
+import { ChevronDown, Github, Linkedin, Mail } from "lucide-react";
+import heroImage from "@/assets/hero-tech.jpg";
+
+const HeroSection = () => {
+  const scrollToAbout = () => {
+    document.getElementById("about")?.scrollIntoView({ behavior: "smooth" });
+  };
+
+  return (
+    <section id="home" className="min-h-screen hero-section flex items-center justify-center relative overflow-hidden">
+      {/* Background Image with Overlay */}
+      <div className="absolute inset-0 z-0">
+        <img 
+          src={heroImage} 
+          alt="Tech Background" 
+          className="w-full h-full object-cover opacity-10"
+        />
+        <div className="absolute inset-0 bg-gradient-to-br from-background/90 to-background/70"></div>
+      </div>
+
+      <div className="container mx-auto px-4 relative z-10">
+        <div className="max-w-4xl mx-auto text-center">
+          {/* Animated Profile Image Placeholder */}
+          <div className="mb-8 animate-fade-in">
+            <div className="w-32 h-32 mx-auto rounded-full bg-gradient-primary shadow-glow animate-float flex items-center justify-center">
+              <span className="text-2xl font-bold text-primary-foreground">JS</span>
+            </div>
+          </div>
+
+          {/* Main Content */}
+          <div className="space-y-6 animate-fade-in">
+            <h1 className="text-4xl md:text-6xl font-bold text-foreground">
+              Hi, I'm <span className="text-primary">John Smith</span>
+            </h1>
+            
+            <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto">
+              Aspiring Software Developer | Tech Innovator | Lifelong Learner
+            </p>
+
+            <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+              B.Tech Computer Science student passionate about building innovative solutions 
+              through code. Exploring the realms of web development, machine learning, 
+              and cutting-edge technologies.
+            </p>
+
+            {/* Social Links */}
+            <div className="flex justify-center space-x-4 mt-8">
+              <Button variant="outline" size="icon" className="hover:shadow-glow transition-smooth">
+                <Github size={20} />
+              </Button>
+              <Button variant="outline" size="icon" className="hover:shadow-glow transition-smooth">
+                <Linkedin size={20} />
+              </Button>
+              <Button variant="outline" size="icon" className="hover:shadow-glow transition-smooth">
+                <Mail size={20} />
+              </Button>
+            </div>
+
+            {/* CTA Buttons */}
+            <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
+              <Button 
+                onClick={scrollToAbout}
+                className="gradient-primary hover:shadow-glow transition-smooth"
+                size="lg"
+              >
+                Learn About Me
+              </Button>
+              <Button 
+                variant="outline" 
+                size="lg"
+                className="hover:shadow-glow transition-smooth"
+              >
+                View My Projects
+              </Button>
+            </div>
+          </div>
+
+          {/* Scroll Indicator */}
+          <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+            <ChevronDown size={24} className="text-muted-foreground" />
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default HeroSection;
