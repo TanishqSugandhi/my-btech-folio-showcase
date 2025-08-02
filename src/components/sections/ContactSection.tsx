@@ -7,21 +7,21 @@ const ContactSection = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "johnsmith@email.com",
-      href: "mailto:johnsmith@email.com",
+      value: "tanishqsugandhi19@gmail.com",
+      href: "mailto:tanishqsugandhi19@gmail.com",
       color: "text-red-600"
     },
     {
       icon: Phone,
       label: "Phone",
-      value: "+91 98765 43210",
-      href: "tel:+919876543210",
+      value: "+91 8985473086",
+      href: "tel:+918985473086",
       color: "text-green-600"
     },
     {
       icon: MapPin,
       label: "Location",
-      value: "Bangalore, India",
+      value: "Hyderabad, India",
       href: null,
       color: "text-blue-600"
     }
@@ -31,24 +31,24 @@ const ContactSection = () => {
     {
       icon: Github,
       label: "GitHub",
-      username: "@johnsmith",
-      href: "https://github.com/johnsmith",
+      username: "@TanishqSugandhi",
+      href: "https://github.com/TanishqSugandhi",
       color: "text-gray-700",
       bgColor: "bg-gray-100 hover:bg-gray-200"
     },
     {
       icon: Linkedin,
       label: "LinkedIn",
-      username: "John Smith",
-      href: "https://linkedin.com/in/johnsmith",
+      username: "Tanishq Sugandhi",
+      href: "https://www.linkedin.com/in/tanishq-sugandhi19/",
       color: "text-blue-600",
       bgColor: "bg-blue-100 hover:bg-blue-200"
     },
     {
       icon: Instagram,
       label: "Instagram",
-      username: "@john.codes",
-      href: "https://instagram.com/john.codes",
+      username: "@tanishq.sugandhi",
+      href: "https://www.instagram.com/tanishq.sugandhi/",
       color: "text-pink-600",
       bgColor: "bg-pink-100 hover:bg-pink-200"
     }
@@ -112,7 +112,7 @@ const ContactSection = () => {
                   </p>
                   <Button 
                     className="gradient-primary hover:shadow-glow transition-smooth w-full"
-                    onClick={() => window.open('mailto:johnsmith@email.com', '_blank')}
+                    onClick={() => window.open('mailto:tanishqsugandhi19@gmail.com', '_blank')}
                   >
                     <Mail size={18} className="mr-2" />
                     Send Email
