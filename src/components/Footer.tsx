@@ -10,10 +10,10 @@ const Footer = () => {
           <div className="grid md:grid-cols-3 gap-8 mb-8">
             {/* Brand */}
             <div className="space-y-4">
-              <h3 className="text-xl font-bold">John Smith</h3>
+              <h3 className="text-xl font-bold">Tanishq Sugandhi</h3>
               <p className="text-background/80 text-sm leading-relaxed">
-                B.Tech Computer Science student passionate about creating innovative 
-                solutions through technology and making a positive impact.
+                Tech enthusiast and ECE undergrad driven by a love for innovation, from aerial intelligence to agentic AI.
+                Always building, always learning.
               </p>
             </div>
 
@@ -43,13 +43,13 @@ const Footer = () => {
               <h4 className="font-semibold">Connect</h4>
               <div className="flex space-x-4">
                 <a 
-                  href="mailto:johnsmith@email.com"
+                  href="mailto:tanishqsugandhi19@gmail.com"
                   className="p-2 bg-background/10 rounded-lg hover:bg-background/20 transition-smooth"
                 >
                   <Mail size={18} />
                 </a>
                 <a 
-                  href="https://github.com"
+                  href="https://github.com/TanishqSugandhi"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-2 bg-background/10 rounded-lg hover:bg-background/20 transition-smooth"
@@ -57,7 +57,7 @@ const Footer = () => {
                   <Github size={18} />
                 </a>
                 <a 
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/in/tanishq-sugandhi19/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-2 bg-background/10 rounded-lg hover:bg-background/20 transition-smooth"
@@ -66,8 +66,8 @@ const Footer = () => {
                 </a>
               </div>
               <p className="text-background/80 text-sm">
-                johnsmith@email.com<br />
-                +91 98765 43210
+                tanishqsugandhi19@gmail.com<br />
+                +91 8985473086
               </p>
             </div>
           </div>
@@ -76,12 +76,12 @@ const Footer = () => {
           <div className="border-t border-background/20 pt-8">
             <div className="flex flex-col md:flex-row items-center justify-between gap-4">
               <p className="text-background/80 text-sm">
-                © {currentYear} John Smith. All rights reserved.
+                © {currentYear} Tanishq Sugandhi. All rights reserved.
               </p>
               <div className="flex items-center text-background/80 text-sm">
                 <span>Made with</span>
                 <Heart size={14} className="mx-1 text-red-400" />
-                <span>using React & TypeScript</span>
+                <span>using tools that think and feel (almost)</span>
               </div>
             </div>
           </div>
