@@ -41,7 +41,8 @@ const HeroSection = () => {
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
               B.Tech Electronics and Communication Engineering student passionate about bridging
               hardware and software to build real-world solutions. Exploring the intersections of 
-              embedded systems, VLSI design, AI, and modern web technologies to create future-ready innovations.
+              embedded systems, VLSI design, AI, and modern web technologies 
+              to create future-ready innovations.
             </p>
 
             {/* Social Links */}
