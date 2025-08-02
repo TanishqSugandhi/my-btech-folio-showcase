@@ -31,30 +31,36 @@ const HeroSection = () => {
           {/* Main Content */}
           <div className="space-y-6 animate-fade-in">
             <h1 className="text-4xl md:text-6xl font-bold text-foreground">
-              Hi, I'm <span className="text-primary">John Smith</span>
+              Hi, I'm <span className="text-primary">Tanishq Sugandhi</span>
             </h1>
             
             <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto">
-              Aspiring Software Developer | Tech Innovator | Lifelong Learner
+              Vision-Led Technologist | Builder of Impactful Systems | Always Evolving
             </p>
 
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              B.Tech Computer Science student passionate about building innovative solutions 
-              through code. Exploring the realms of web development, machine learning, 
-              and cutting-edge technologies.
+              B.Tech Electronics and Communication Engineering student passionate about bridging
+              hardware and software to build real-world solutions. Exploring the intersections of 
+              embedded systems, VLSI design, AI, and modern web technologies to create future-ready innovations.
             </p>
 
             {/* Social Links */}
             <div className="flex justify-center space-x-4 mt-8">
+              <a href="https://github.com/TanishqSugandhi" target="_blank" rel="noopener noreferrer">
               <Button variant="outline" size="icon" className="hover:shadow-glow transition-smooth">
                 <Github size={20} />
               </Button>
+              </a>
+              <a href="https://www.linkedin.com/in/tanishq-sugandhi19/" target="_blank" rel="noopener noreferrer">
               <Button variant="outline" size="icon" className="hover:shadow-glow transition-smooth">
                 <Linkedin size={20} />
               </Button>
+              </a>
+               <a href="mailto:tanishqsugandhi19@gmail.com">
               <Button variant="outline" size="icon" className="hover:shadow-glow transition-smooth">
                 <Mail size={20} />
               </Button>
+            </a>
             </div>
 
             {/* CTA Buttons */}
@@ -75,11 +81,7 @@ const HeroSection = () => {
               </Button>
             </div>
           </div>
-
-          {/* Scroll Indicator */}
-          <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-            <ChevronDown size={24} className="text-muted-foreground" />
-          </div>
+          
         </div>
       </div>
     </section>
