@@ -4,15 +4,15 @@ import { Download, Code, Brain, Shield, Wifi } from "lucide-react";
 
 const AboutSection = () => {
   const interests = [
-    { icon: Code, title: "Web Development", description: "Full-stack development with modern frameworks" },
+    { icon: Code, title: "UI/UX Design", description: "User-centered design with wireframing, prototyping, and modern design tools." },
     { icon: Brain, title: "Machine Learning", description: "AI/ML algorithms and data science" },
-    { icon: Shield, title: "Cybersecurity", description: "Information security and ethical hacking" },
+    { icon: Shield, title: "Drone Security", description: "Ensuring secure drone communication and protection against signal hijacking and data breaches." },
     { icon: Wifi, title: "IoT", description: "Internet of Things and embedded systems" },
   ];
 
   const technologies = [
-    "Python", "JavaScript", "React", "Node.js", "TypeScript", "Git",
-    "Docker", "MongoDB", "PostgreSQL", "TensorFlow", "AWS", "Linux"
+    "Python (Learning Actively)", "TypeScript (Exploring)", "Git", "C/C++"
+    "Docker (Currently Exploring)", "TensorFlow (Exploring)", "AWS (Basic deployment)", "Linux (Exploring)"
   ];
 
   return (
@@ -25,7 +25,9 @@ const AboutSection = () => {
               About <span className="text-primary">Me</span>
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Passionate about technology and always eager to learn new things
+             Fueled by a genuine passion for technology and 
+              <br />
+              a constant drive to learn, innovate, and grow in diverse domains.
             </p>
           </div>
 
@@ -37,15 +39,21 @@ const AboutSection = () => {
                   <h3 className="text-xl font-semibold mb-4">My Journey</h3>
                   <div className="space-y-4 text-muted-foreground">
                     <p>
-                      I'm John Smith, a 3rd-year B.Tech Computer Science student at 
+                      I'm Tanishq Sugandhi, a 2nd-year B.Tech Electronics and Communication Engineering student at 
                       <span className="text-primary font-medium"> ABC University</span>. 
-                      My journey in technology started with curiosity about how software works, 
-                      and has evolved into a passion for creating solutions that make a difference.
+                      What began as a simple curiosity about how technology works has grown 
+                      <br />
+                      into a strong passion for building impactful solutions—whether through 
+                      <br />
+                      drones, AI, or creative innovations that solve real-world problems.
                     </p>
                     <p>
-                      Currently maintaining a <span className="text-primary font-medium">CGPA of 8.5</span>, 
-                      I'm actively involved in various technical clubs and always looking for 
-                      opportunities to apply my knowledge in real-world projects.
+                      Currently maintaining a <span className="text-primary font-medium">CGPA of 6.1</span>, 
+                      I actively engage in tech events, hackathons, and innovation-driven projects, 
+                      <br />
+                      constantly seeking real-world opportunities to apply and 
+                      <br />
+                      expand my skills beyond theory.
                     </p>
                   </div>
                 </CardContent>
@@ -54,14 +62,20 @@ const AboutSection = () => {
               {/* Download Resume */}
               <Card className="shadow-elegant">
                 <CardContent className="p-6">
-                  <h3 className="text-xl font-semibold mb-4">Get My Resume</h3>
+                  <h3 className="text-xl font-semibold mb-4">View My Resume</h3>
                   <p className="text-muted-foreground mb-4">
-                    Download my detailed resume to learn more about my experience and qualifications.
+                    Take a look at my resume to explore my skills, experience, and the work I've been involved in.
                   </p>
+                   <a
+                href="https://drive.google.com/file/d/1Fpli4Pi39tv4fjGBf4cazl-u-TYbLqEz/view?usp=sharing" 
+                target="_blank"
+                rel="noopener noreferrer"
+                >
                   <Button className="gradient-primary hover:shadow-glow transition-smooth">
                     <Download size={18} className="mr-2" />
-                    Download Resume
+                    View Resume
                   </Button>
+                    </a>
                 </CardContent>
               </Card>
 
@@ -71,16 +85,16 @@ const AboutSection = () => {
                   <h3 className="text-xl font-semibold mb-4">Leadership & Clubs</h3>
                   <div className="space-y-3">
                     <div className="border-l-4 border-primary pl-4">
-                      <h4 className="font-medium">Technical Lead</h4>
-                      <p className="text-sm text-muted-foreground">University Coding Club</p>
-                    </div>
-                    <div className="border-l-4 border-primary pl-4">
                       <h4 className="font-medium">Core Team Member</h4>
-                      <p className="text-sm text-muted-foreground">AI/ML Society</p>
+                      <p className="text-sm text-muted-foreground">ICFAI Tech Entrepreneurship Club</p>
                     </div>
+                    {/* <div className="border-l-4 border-primary pl-4"> */}
+                    {/* <h4 className="font-medium">Core Team Member</h4> */}
+                    {/* <p className="text-sm text-muted-foreground">AI/ML Society</p> */}
+                    {/* </div> */}
                     <div className="border-l-4 border-primary pl-4">
-                      <h4 className="font-medium">Event Coordinator</h4>
-                      <p className="text-sm text-muted-foreground">Tech Fest Committee</p>
+                      <h4 className="font-medium">College Ambassador</h4>
+                      <p className="text-sm text-muted-foreground">TechFest, IIT Bombay</p>
                     </div>
                   </div>
                 </CardContent>
