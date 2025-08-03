@@ -40,7 +40,7 @@ const Navigation = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <div className="font-semibold text-xl">
-            <span className="text-primary">Portfolio</span>
+            <span className="text-primary">Code & Beyond</span>
           </div>
 
           {/* Desktop Navigation */}
