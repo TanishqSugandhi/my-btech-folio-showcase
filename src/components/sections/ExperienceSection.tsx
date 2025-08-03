@@ -5,70 +5,42 @@ import { Briefcase, Users, Calendar, MapPin } from "lucide-react";
 const ExperienceSection = () => {
   const internships = [
     {
-      company: "TechCorp Solutions",
-      role: "Software Development Intern",
-      duration: "Jun 2024 - Aug 2024",
-      location: "Bangalore, India",
+      company: "VISWAM.AI",
+      role: "AI Developer Intern",
+      duration: "Jun 2025 - Present",
+      location: "Hyderabad, India",
       type: "Internship",
-      description: "Developed responsive web applications using React and Node.js, improving user experience by 40%",
-      technologies: ["React", "Node.js", "MongoDB", "AWS"],
+      description: "Contributing to AI development as part of the prestigious Summer of AI 2025 program organized by VISWAM.AI, in collaboration with Swecha, IIIT Hyderabad, Meta, and HSEA. Focused on building AI-powered applications and real-world solutions through collaborative learning and innovation.",
+      technologies: ["Python", "Collaborative Software Tools", "AI Frameworks", "GIT"],
       achievements: [
-        "Built 3 full-stack web applications",
-        "Optimized database queries reducing load time by 30%",
-        "Collaborated with 5-member development team"
-      ]
-    },
-    {
-      company: "DataMind Analytics",
-      role: "ML Research Intern",
-      duration: "Dec 2023 - Feb 2024",
-      location: "Mumbai, India",
-      type: "Internship",
-      description: "Worked on machine learning models for predictive analytics in healthcare domain",
-      technologies: ["Python", "TensorFlow", "Pandas", "Scikit-learn"],
-      achievements: [
-        "Improved model accuracy by 15%",
-        "Published research paper on healthcare analytics",
-        "Presented findings to senior management"
-      ]
-    },
-    {
-      company: "StartupHub Incubator",
-      role: "Technical Consultant",
-      duration: "Sep 2023 - Nov 2023",
-      location: "Remote",
-      type: "Part-time",
-      description: "Provided technical guidance to early-stage startups on technology stack selection and architecture",
-      technologies: ["JavaScript", "Python", "Cloud Computing", "DevOps"],
-      achievements: [
-        "Consulted for 8 different startups",
-        "Helped reduce development costs by 25%",
-        "Mentored junior developers"
+        "Led the development of an AI-powered Rural Health Connect website",
+        "Documented workflows and research for future scalability and improvements",
+        "Gained proficiency in AI development practices through intensive, mentor-led training"
       ]
     }
   ];
 
   const volunteering = [
     {
-      organization: "CodeForGood Initiative",
-      role: "Volunteer Developer",
-      duration: "Jan 2023 - Present",
-      description: "Building digital solutions for NGOs and social causes",
-      impact: "Developed websites for 5+ NGOs, reaching 10,000+ beneficiaries"
+      organization: "ICFAI Tech Entrepreneurship Club",
+      role: "Event Host",
+      duration: "Feb 2025 - Present",
+      description: "Coordinating engaging events and fostering collaboration.",
+      impact: "Strengthened community engagement through events and networking."
     },
     {
-      organization: "University Tech Club",
-      role: "Workshop Organizer",
-      duration: "Aug 2022 - Present",
-      description: "Organizing coding workshops and technical seminars for students",
-      impact: "Conducted 15+ workshops, trained 200+ students"
+      organization: "Excuria Club, IFHE University",
+      role: "Volunteer at TEDxICFAI",
+      duration: "April 2025",
+      description: "Handled speaker coordination, stage setup & audience engagement.",
+      impact: "Engaged with industry speakers & gained insights into personal branding & communication."
     },
     {
-      organization: "Coding Bootcamp for Schools",
-      role: "Mentor & Speaker",
-      duration: "Jun 2023 - Aug 2023",
-      description: "Teaching programming fundamentals to high school students",
-      impact: "Mentored 50+ students, 80% showed significant improvement"
+      organization: "ARC ICFAI Tech",
+      role: "Volunteer at Flashback Fiesta",
+      duration: "March 2025",
+      description: "Supported coordination of ARC’s exclusive alumni networking event.",
+      impact: "Assisted in event coordination & exposure to mentoring, and professional development."
     }
   ];
 
