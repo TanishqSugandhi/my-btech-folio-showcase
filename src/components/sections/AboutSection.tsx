@@ -11,7 +11,7 @@ const AboutSection = () => {
   ];
 
   const technologies = [
-    "Python (Learning Actively)", "TypeScript (Exploring)", "Git", "C/C++"
+    "Python (Learning Actively)", "TypeScript (Exploring)", "Git", "C/C++",
     "Docker (Currently Exploring)", "TensorFlow (Exploring)", "AWS (Basic deployment)", "Linux (Exploring)"
   ];
 
