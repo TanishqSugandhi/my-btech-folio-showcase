@@ -80,6 +80,7 @@ const HeroSection = () => {
                 Learn About Me
               </Button>
               <Button 
+                onClick={scrollToProjects}
                 variant="outline" 
                 size="lg"
                 className="hover:shadow-glow transition-smooth"
