@@ -7,6 +7,10 @@ const HeroSection = () => {
     document.getElementById("about")?.scrollIntoView({ behavior: "smooth" });
   };
 
+  const scrollToProjects = () => {
+    document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <section id="home" className="min-h-screen hero-section flex items-center justify-center relative overflow-hidden">
       {/* Background Image with Overlay */}
