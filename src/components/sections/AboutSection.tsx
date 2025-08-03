@@ -1,12 +1,12 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { Download, Code, Brain, Shield, Wifi } from "lucide-react";
+import { Eye, Code, Brain, Shield, Wifi } from "lucide-react";
 
 const AboutSection = () => {
   const interests = [
-    { icon: Code, title: "UI/UX Design", description: "User-centered design with wireframing, prototyping, and modern design tools." },
+    { icon: Code, title: "UI/UX Design", description: "UI/UX with wireframes, prototypes, and tools." },
     { icon: Brain, title: "Machine Learning", description: "AI/ML algorithms and data science" },
-    { icon: Shield, title: "Drone Security", description: "Ensuring secure drone communication and protection against signal hijacking and data breaches." },
+    { icon: Shield, title: "Drone Security", description: "Securing drones from hijacking and data breaches." },
     { icon: Wifi, title: "IoT", description: "Internet of Things and embedded systems" },
   ];
 
@@ -41,11 +41,11 @@ const AboutSection = () => {
                     <p>
                       I'm Tanishq Sugandhi, a 2nd-year B.Tech Electronics and Communication Engineering student at 
                       <span className="text-primary font-medium"> ABC University</span>. 
-                      What began as a simple curiosity about how technology works has grown 
+                      What started as curiosity about technology has
                       <br />
-                      into a strong passion for building impactful solutions—whether through 
+                      grown into a passion for building real-world
                       <br />
-                      drones, AI, or creative innovations that solve real-world problems.
+                      solutions using drones, AI, and innovation.
                     </p>
                     <p>
                       Currently maintaining a <span className="text-primary font-medium">CGPA of 6.1</span>, 
@@ -72,7 +72,7 @@ const AboutSection = () => {
                 rel="noopener noreferrer"
                 >
                   <Button className="gradient-primary hover:shadow-glow transition-smooth">
-                    <Download size={18} className="mr-2" />
+                    <Eye size={18} className="mr-2" />
                     View Resume
                   </Button>
                     </a>
