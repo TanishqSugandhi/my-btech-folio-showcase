@@ -40,7 +40,7 @@ const AboutSection = () => {
                   <div className="space-y-4 text-muted-foreground">
                     <p>
                       I'm Tanishq Sugandhi, a 2nd-year B.Tech Electronics and Communication Engineering student at 
-                      <span className="text-primary font-medium"> ABC University</span>. 
+                      <span className="text-primary font-medium"> IFHE University</span>. 
                       What started as curiosity about technology has
                       <br />
                       grown into a passion for building real-world
