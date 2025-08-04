@@ -53,7 +53,7 @@ const AchievementsSection = () => {
               Achievements & <span className="text-primary">Recognition</span>
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Milestones that reflect my dedication to learning and excellence
+              Not just titles — these are checkpoints in a journey shaped by intent, effort, and execution.
             </p>
           </div>
 
