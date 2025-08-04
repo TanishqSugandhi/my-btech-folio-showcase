@@ -89,7 +89,7 @@ const ProjectsSection = () => {
                   <img 
                     src={project.image} 
                     alt={project.title}
-                    className="w-full h-48 object-cover group-hover:scale-105 transition-smooth"
+                    className="w-full h-48 object-contain bg-muted group-hover:scale-105 transition-smooth"
                   />
                   {project.featured && (
                     <Badge className="absolute top-3 right-3 bg-primary text-primary-foreground">
