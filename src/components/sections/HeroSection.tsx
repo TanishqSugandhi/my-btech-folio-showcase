@@ -44,7 +44,7 @@ const HeroSection = () => {
             </h1>
             
             <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto">
-              Vision-Led Technologist | Builder of Impactful Systems | Always Evolving
+              Technologist | Impact-Driven Builder | Always Growing
             </p>
 
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
