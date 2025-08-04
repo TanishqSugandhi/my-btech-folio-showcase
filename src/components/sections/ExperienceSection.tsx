@@ -17,7 +17,21 @@ const ExperienceSection = () => {
         "Documented workflows and research for future scalability and improvements",
         "Gained proficiency in AI development practices through intensive, mentor-led training"
       ]
-    }
+    },
+    {
+      company: "Mood Indigo, IIT Bombay",
+      role: "Digital Marketing Intern – Indigo Squad Member",
+      duration: "Oct 2024 - Nov 2025",
+      location: "Remote",
+      type: "Part-time",
+      description: "Contributed to the College Connect Program by executing outreach strategies to promote Mood Indigo 2024 across campuses.",
+      technologies: ["Social Media Marketing", "Content Strategy", "Campaign Outreach", "Team Collaboration"],
+      achievements: [
+        "Recognized for top performance among campus ambassadors",
+        "Drove digital engagement through targeted campaigns",
+        "Coordinated outreach with IIT Bombay team"
+      ]
+    }
   ];
 
   const volunteering = [
