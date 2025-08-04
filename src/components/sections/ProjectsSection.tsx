@@ -8,7 +8,7 @@ const ProjectsSection = () => {
     {
       title: "E-Commerce Platform",
       description: "Full-stack web application with user authentication, payment integration, and admin dashboard. Built with modern technologies for scalable performance.",
-      image: "/lovable-uploads/b0550cc6-2bc3-471e-a9c3-2769c65daea8.png",
+      image: "/lovable-uploads/afd6eabd-699c-4e8a-a219-b7fbe0b18d46.png",
       techStack: ["React", "Node.js", "MongoDB", "Stripe API"],
       githubUrl: "https://github.com",
       liveUrl: "https://demo.com",
