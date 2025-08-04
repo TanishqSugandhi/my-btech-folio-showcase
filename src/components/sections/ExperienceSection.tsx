@@ -21,7 +21,7 @@ const ExperienceSection = () => {
     {
       company: "Mood Indigo, IIT Bombay",
       role: "Digital Marketing Intern – Indigo Squad Member",
-      duration: "Oct 2024 - Nov 2025",
+      duration: "Oct 2024 - Dec 2024",
       location: "Remote",
       type: "Part-time",
       description: "Contributed to the College Connect Program by executing outreach strategies to promote Mood Indigo 2024 across campuses.",
