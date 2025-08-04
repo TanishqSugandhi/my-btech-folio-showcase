@@ -1,61 +1,34 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Trophy, Award, Medal, Star, Calendar } from "lucide-react";
+import { Trophy, Award, Medal, Star, Lightbulb, GraduationCap, Calendar } from "lucide-react";
 
 const AchievementsSection = () => {
   const achievements = [
     {
-      title: "1st Place - National Hackathon 2024",
-      organization: "TechFest India",
-      date: "March 2024",
+      title: "2nd Place - Design Thinking Workshop & Hackathon",
+      organization: "ICFAI Tech School",
+      date: "March 2025",
       description: "Developed innovative IoT solution for smart agriculture",
       icon: Trophy,
       type: "Competition",
       color: "text-yellow-600"
     },
     {
-      title: "AWS Certified Cloud Practitioner",
-      organization: "Amazon Web Services",
-      date: "February 2024",
-      description: "Cloud computing fundamentals and best practices",
-      icon: Award,
-      type: "Certification",
-      color: "text-blue-600"
-    },
-    {
-      title: "Dean's List Academic Excellence",
-      organization: "ABC University",
-      date: "December 2023",
-      description: "Top 5% of students with CGPA 8.5+",
-      icon: Star,
-      type: "Academic",
-      color: "text-purple-600"
-    },
-    {
-      title: "Google Code-in Finalist",
-      organization: "Google",
-      date: "January 2024",
-      description: "Open source contribution and coding challenges",
-      icon: Medal,
+      title: "Smart India Hackathon 2024 – Internal Hackathon Winner",
+      organization: "ICFAI Foundation for Higher Education, ICFAI Tech",
+      date: "September 2024",
+      description: "Selected for national round based on internal hackathon performance.",
+      icon: Lightbulb,
       type: "Competition",
-      color: "text-green-600"
-    },
-    {
-      title: "Merit Scholarship Recipient",
-      organization: "State Government",
-      date: "August 2023",
-      description: "₹50,000 scholarship for academic performance",
-      icon: Award,
-      type: "Scholarship",
       color: "text-orange-600"
     },
     {
-      title: "Best Student Project Award",
-      organization: "Department of CSE",
-      date: "November 2023",
-      description: "Outstanding final year project in AI/ML domain",
-      icon: Trophy,
-      type: "Academic",
+      title: "Workshop on Aerial Drone Technology",
+      organization: "Department of Mechanical & Aerospace Engineering, Mahindra University",
+      date: "January 2023",
+      description: "Hands-on workshop on drone design, assembly, and real-world applications",
+      icon: GraduationCap,
+      type: "Workshop",
       color: "text-red-600"
     }
   ];
