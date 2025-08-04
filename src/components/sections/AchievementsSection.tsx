@@ -13,6 +13,15 @@ const AchievementsSection = () => {
       type: "Competition",
       color: "text-yellow-600"
     },
+     {
+      title: "Workshop on Aerial Drone Technology",
+      organization: "Department of Mechanical & Aerospace Engineering, Mahindra University",
+      date: "January 2025",
+      description: "Hands-on workshop on drone design, assembly, and real-world applications",
+      icon: GraduationCap,
+      type: "Workshop",
+      color: "text-red-600"
+    },
     {
       title: "Smart India Hackathon 2024 – Internal Hackathon Winner",
       organization: "ICFAI Foundation for Higher Education, ICFAI Tech",
@@ -21,15 +30,6 @@ const AchievementsSection = () => {
       icon: Lightbulb,
       type: "Competition",
       color: "text-orange-600"
-    },
-    {
-      title: "Workshop on Aerial Drone Technology",
-      organization: "Department of Mechanical & Aerospace Engineering, Mahindra University",
-      date: "January 2023",
-      description: "Hands-on workshop on drone design, assembly, and real-world applications",
-      icon: GraduationCap,
-      type: "Workshop",
-      color: "text-red-600"
     }
   ];
 
