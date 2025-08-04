@@ -113,19 +113,19 @@ const AchievementsSection = () => {
           <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-6 animate-fade-in">
             <div className="text-center">
               <div className="text-3xl font-bold text-primary mb-2">6+</div>
-              <div className="text-sm text-muted-foreground">Awards Won</div>
+              <div className="text-sm text-muted-foreground">Hackathons Participated</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-primary mb-2">3</div>
-              <div className="text-sm text-muted-foreground">Certifications</div>
+              <div className="text-3xl font-bold text-primary mb-2">5+</div>
+              <div className="text-sm text-muted-foreground">Projects Worked On</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-primary mb-2">8.5</div>
-              <div className="text-sm text-muted-foreground">CGPA</div>
+              <div className="text-3xl font-bold text-primary mb-2">3+</div>
+              <div className="text-sm text-muted-foreground">Volunteering Roles</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-primary mb-2">₹50K</div>
-              <div className="text-sm text-muted-foreground">Scholarship</div>
+              <div className="text-3xl font-bold text-primary mb-2">7+</div>
+              <div className="text-sm text-muted-foreground">Events & Workshops Attended</div>
             </div>
           </div>
         </div>
