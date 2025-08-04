@@ -53,7 +53,7 @@ const AchievementsSection = () => {
               Achievements & <span className="text-primary">Recognition</span>
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Not just titles — these are checkpoints in a journey shaped by intent, effort, and execution.
+              Not just titles — real checkpoints of intent and execution.
             </p>
           </div>
 
