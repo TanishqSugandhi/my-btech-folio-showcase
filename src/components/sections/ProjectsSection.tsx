@@ -26,7 +26,7 @@ const ProjectsSection = () => {
     {
       title: "IoT Home Automation",
       description: "Smart home system controlling lights, temperature, and security through mobile app and voice commands.",
-      image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=250&fit=crop",
+      image: "/lovable-uploads/a30d81c3-f10b-47cb-a3aa-c7f4c6c13d0c.png",
       techStack: ["Arduino", "React Native", "Firebase", "IoT"],
       githubUrl: "https://github.com",
       liveUrl: null,
