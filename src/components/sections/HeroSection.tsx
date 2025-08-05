@@ -28,7 +28,7 @@ const HeroSection = () => {
           {/* Animated Profile Image Placeholder */}
           <div className="mb-8 animate-fade-in">
             <div className="w-32 h-32 mx-auto rounded-full bg-gradient-primary shadow-glow animate-float flex items-center justify-center">
-              <span className="text-2xl font-bold text-primary-foreground">JS</span>
+              <span className="text-2xl font-bold text-primary-foreground"></span>
               <img 
           src={heroImage} 
           alt="a picture of tanishq" 
