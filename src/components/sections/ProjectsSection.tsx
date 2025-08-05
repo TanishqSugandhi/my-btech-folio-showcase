@@ -17,7 +17,7 @@ const ProjectsSection = () => {
     {
       title: "AI Chatbot Assistant",
       description: "Intelligent chatbot using natural language processing to assist users with queries and provide automated support.",
-      image: "https://github.com/TanishqSugandhi/Rural_Health_Connect_image/blob/main/Rural_Health_Connect.jpg?w=400&h=250&fit=crop",
+      image: "/lovable-uploads/d304eb8a-2a8d-4ca5-b14e-2fdffd0248fb.png",
       techStack: ["Python", "TensorFlow", "Flask", "NLP"],
       githubUrl: "https://github.com",
       liveUrl: "https://demo.com",
