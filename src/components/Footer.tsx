@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail, Heart } from "lucide-react";
+import { Github, Linkedin, Mail } from "lucide-react";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -79,9 +79,7 @@ const Footer = () => {
                 © {currentYear} Tanishq Sugandhi. All rights reserved.
               </p>
               <div className="flex items-center text-background/80 text-sm">
-                <span>Made with</span>
-                <Heart size={14} className="mx-1 text-red-400" />
-                <span>using tools that think and feel (almost)</span>
+                <span>Made with tools that think and feel (almost)</span>
               </div>
             </div>
           </div>
