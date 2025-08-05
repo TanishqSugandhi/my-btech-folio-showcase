@@ -35,7 +35,7 @@ const ProjectsSection = () => {
     {
       title: "Cryptocurrency Tracker",
       description: "Real-time crypto price monitoring with portfolio tracking, alerts, and detailed analytics dashboard.",
-      image: "https://images.unsplash.com/photo-1621761191319-c6fb62004040?w=400&h=250&fit=crop",
+      image: "/lovable-uploads/2573c2ef-b095-4e8b-ab49-685680220fee.png",
       techStack: ["Vue.js", "Chart.js", "CoinGecko API", "PWA"],
       githubUrl: "https://github.com",
       liveUrl: "https://demo.com",
