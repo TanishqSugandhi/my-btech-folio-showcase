@@ -40,24 +40,6 @@ const ProjectsSection = () => {
       githubUrl: "https://github.com",
       liveUrl: null,
       featured: false
-    },
-    {
-      title: "Task Management App",
-      description: "Collaborative task management tool with team features, deadline tracking, and productivity analytics.",
-      image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=400&h=250&fit=crop",
-      techStack: ["Angular", "Express.js", "PostgreSQL", "Socket.io"],
-      githubUrl: "https://github.com",
-      liveUrl: null,
-      featured: false
-    },
-    {
-      title: "Weather Prediction ML",
-      description: "Machine learning model for weather forecasting using historical data and advanced algorithms.",
-      image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=400&h=250&fit=crop",
-      techStack: ["Python", "Scikit-learn", "Pandas", "Jupyter"],
-      githubUrl: "https://github.com",
-      liveUrl: null,
-      featured: false
     }
   ];
 
