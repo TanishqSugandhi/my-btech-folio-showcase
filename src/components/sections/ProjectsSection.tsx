@@ -11,7 +11,7 @@ const ProjectsSection = () => {
       image: "/lovable-uploads/afd6eabd-699c-4e8a-a219-b7fbe0b18d46.png",
       techStack: ["React", "Node.js", "MongoDB", "Stripe API"],
       githubUrl: "https://github.com",
-      liveUrl: "https://demo.com",
+      liveUrl: null,
       featured: true
     },
     {
@@ -20,7 +20,7 @@ const ProjectsSection = () => {
       image: "/lovable-uploads/d304eb8a-2a8d-4ca5-b14e-2fdffd0248fb.png",
       techStack: ["Python", "TensorFlow", "Flask", "NLP"],
       githubUrl: "https://github.com",
-      liveUrl: "https://demo.com",
+      liveUrl: null,
       featured: true
     },
     {
@@ -38,7 +38,7 @@ const ProjectsSection = () => {
       image: "/lovable-uploads/2573c2ef-b095-4e8b-ab49-685680220fee.png",
       techStack: ["Vue.js", "Chart.js", "CoinGecko API", "PWA"],
       githubUrl: "https://github.com",
-      liveUrl: "https://demo.com",
+      liveUrl: null,
       featured: false
     },
     {
@@ -47,7 +47,7 @@ const ProjectsSection = () => {
       image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=400&h=250&fit=crop",
       techStack: ["Angular", "Express.js", "PostgreSQL", "Socket.io"],
       githubUrl: "https://github.com",
-      liveUrl: "https://demo.com",
+      liveUrl: null,
       featured: false
     },
     {
