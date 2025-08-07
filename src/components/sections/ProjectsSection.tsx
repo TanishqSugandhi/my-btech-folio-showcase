@@ -107,7 +107,7 @@ const ProjectsSection = () => {
                   {/* Status Message */}
                   <div className="pt-2">
                     <p className="text-sm text-muted-foreground italic text-center">
-                      Soon code will be released...
+                      The source code will be made available shortly.
                     </p>
                   </div>
                 </CardContent>
