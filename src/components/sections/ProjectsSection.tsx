@@ -104,45 +104,17 @@ const ProjectsSection = () => {
                     ))}
                   </div>
 
-                  {/* Action Buttons */}
-                  <div className="flex gap-3 pt-2">
-                    <Button 
-                      variant="outline" 
-                      size="sm" 
-                      className="flex-1 hover:shadow-glow transition-smooth"
-                      onClick={() => window.open(project.githubUrl, '_blank')}
-                    >
-                      <Github size={16} className="mr-2" />
-                      Code
-                    </Button>
-                    {project.liveUrl && (
-                      <Button 
-                        size="sm" 
-                        className="flex-1 gradient-primary hover:shadow-glow transition-smooth"
-                        onClick={() => window.open(project.liveUrl, '_blank')}
-                      >
-                        <ExternalLink size={16} className="mr-2" />
-                        Live Demo
-                      </Button>
-                    )}
+                  {/* Status Message */}
+                  <div className="pt-2">
+                    <p className="text-sm text-muted-foreground italic text-center">
+                      Soon code will be released...
+                    </p>
                   </div>
                 </CardContent>
               </Card>
             ))}
           </div>
 
-          {/* View More Button */}
-          <div className="text-center mt-12 animate-fade-in">
-            <Button 
-              variant="outline" 
-              size="lg"
-              className="hover:shadow-glow transition-smooth"
-              onClick={() => window.open('https://github.com', '_blank')}
-            >
-              <Code size={18} className="mr-2" />
-              View All Projects on GitHub
-            </Button>
-          </div>
         </div>
       </div>
     </section>
