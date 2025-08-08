@@ -6,13 +6,13 @@ import { Github, ExternalLink, Code } from "lucide-react";
 const ProjectsSection = () => {
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "Full-stack web application with user authentication, payment integration, and admin dashboard. Built with modern technologies for scalable performance.",
+      title: "Crowd Monitoring Drone System",
+      description: "Built a custom drone using Raspberry Pi and Pixhawk for real-time crowd detection, with NavIC-based geolocation and Python-powered surveillance.",
       image: "/lovable-uploads/afd6eabd-699c-4e8a-a219-b7fbe0b18d46.png",
-      techStack: ["React", "Node.js", "MongoDB", "Stripe API"],
+      techStack: ["NavIC", "Raspberry Pi", "Python", "Pixhawk"],
       githubUrl: "https://github.com",
       liveUrl: null,
-      featured: true
+      featured: false
     },
     {
       title: "AI Chatbot Assistant",
@@ -21,7 +21,7 @@ const ProjectsSection = () => {
       techStack: ["Python", "TensorFlow", "Flask", "NLP"],
       githubUrl: "https://github.com",
       liveUrl: null,
-      featured: true
+      featured: false
     },
     {
       title: "IoT Home Automation",
