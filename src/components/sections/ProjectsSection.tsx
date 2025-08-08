@@ -30,16 +30,16 @@ const ProjectsSection = () => {
       techStack: ["Arduino", "React Native", "Firebase", "IoT"],
       githubUrl: "https://github.com",
       liveUrl: null,
-      featured: false
+      Internship: true
     },
     {
-      title: "Cryptocurrency Tracker",
-      description: "Real-time crypto price monitoring with portfolio tracking, alerts, and detailed analytics dashboard.",
+      title: "KhabarChakkar",
+      description: "Multilingual news aggregator built with Streamlit and Wikimedia APIs, delivering real-time headlines, summaries, and media-rich insights.",
       image: "/lovable-uploads/2573c2ef-b095-4e8b-ab49-685680220fee.png",
-      techStack: ["Vue.js", "Chart.js", "CoinGecko API", "PWA"],
+      techStack: ["Python", "Streamlit", "Wikimedia API", "NLP"],
       githubUrl: "https://github.com",
       liveUrl: null,
-      featured: false
+      Intership: true
     }
   ];
 
