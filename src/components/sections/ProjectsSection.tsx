@@ -15,10 +15,10 @@ const ProjectsSection = () => {
       featured: false
     },
     {
-      title: "AI Chatbot Assistant",
-      description: "Intelligent chatbot using natural language processing to assist users with queries and provide automated support.",
+      title: "Rural Health Connect",
+      description: "A one-stop platform offering AI health assistant, diet plans, doctor video calls, medicine stock info, and report management for rural healthcare access.",
       image: "/lovable-uploads/d304eb8a-2a8d-4ca5-b14e-2fdffd0248fb.png",
-      techStack: ["Python", "TensorFlow", "Flask", "NLP"],
+      techStack: ["Python", "WebRTC", "Flask", "NLP"],
       githubUrl: "https://github.com",
       liveUrl: null,
       featured: false
