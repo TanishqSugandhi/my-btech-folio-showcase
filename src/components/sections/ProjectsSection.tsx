@@ -24,13 +24,13 @@ const ProjectsSection = () => {
       featured: false
     },
     {
-      title: "IoT Home Automation",
-      description: "Smart home system controlling lights, temperature, and security through mobile app and voice commands.",
+      title: "GenericBuddy",
+      description: "Smart tool to discover generic medicines, compare prices, detect prescriptions, and locate nearby pharmacies — with interactive charts and clean UI.",
       image: "/lovable-uploads/a30d81c3-f10b-47cb-a3aa-c7f4c6c13d0c.png",
-      techStack: ["Arduino", "React Native", "Firebase", "IoT"],
+      techStack: ["Python", "Streamlit", "Geolocation APIs", "Matplotlib"],
       githubUrl: "https://github.com",
       liveUrl: null,
-      Internship: true
+      featured: false
     },
     {
       title: "KhabarChakkar",
@@ -39,7 +39,7 @@ const ProjectsSection = () => {
       techStack: ["Python", "Streamlit", "Wikimedia API", "NLP"],
       githubUrl: "https://github.com",
       liveUrl: null,
-      Intership: true
+      featured: false
     }
   ];
 
