@@ -19,11 +19,29 @@ const ExperienceSection = () => {
       ]
     },
     {
+      company: "Codveda Technologies",
+      role: "C/C++ Developmment Intern",
+      duration: "Aug 2025 - Present",
+      location: "Remote",
+      type: "Internship",
+      description: "C/C++ Development Intern at Codveda Technologies, contributing to systems programming and optimization.",
+      technologies: ["C/C++"]
+    },
+    {
+      company: "TechFest, IIT Bombay",
+      role: "College Ambassador",
+      duration: "Jul 2025 - Present",
+      location: "Remote",
+      type: "Internship",
+      description: "Representing Techfest, IIT Bombay, to promote technology, innovation, and student engagement on campus.",
+      technologies: ["Social Media Marketing", "Content Strategy", "Canva", "Event Managment Platform", "Email Campaign Tools"],
+    },
+    {
       company: "Mood Indigo, IIT Bombay",
       role: "Digital Marketing Intern – Indigo Squad Member",
       duration: "Oct 2024 - Dec 2024",
       location: "Remote",
-      type: "Part-time",
+      type: "Internship",
       description: "Contributed to the College Connect Program by executing outreach strategies to promote Mood Indigo 2024 across campuses.",
       technologies: ["Social Media Marketing", "Content Strategy", "Campaign Outreach", "Team Collaboration"],
       achievements: [
