@@ -153,17 +153,19 @@ const ExperienceSection = () => {
                     </div>
 
                     {/* Achievements */}
-                    <div>
-                      <h4 className="font-medium text-foreground mb-2">Key Achievements:</h4>
-                      <ul className="space-y-1">
-                        {internship.achievements.map((achievement, achIndex) => (
-                          <li key={achIndex} className="text-muted-foreground text-sm flex items-start">
-                            <span className="text-primary mr-2 mt-1">•</span>
-                            {achievement}
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
+                    {internship.achievements && internship.achievements.length > 0 && (
+                      <div>
+                        <h4 className="font-medium text-foreground mb-2">Key Achievements:</h4>
+                        <ul className="space-y-1">
+                          {internship.achievements.map((achievement, achIndex) => (
+                            <li key={achIndex} className="text-muted-foreground text-sm flex items-start">
+                              <span className="text-primary mr-2 mt-1">•</span>
+                              {achievement}
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    )}
                   </CardContent>
                 </Card>
               ))}
