@@ -65,7 +65,7 @@ const AboutSection = () => {
                     Take a look at my resume to explore my skills, experience, and the work I've been involved in.
                   </p>
                    <a
-                href="https://drive.google.com/file/d/1Fpli4Pi39tv4fjGBf4cazl-u-TYbLqEz/view?usp=sharing" 
+                href="https://drive.google.com/file/d/1OwiLwcZ5GDImCsDB9vSsViz9PuamDkDQ/view?usp=sharing" 
                 target="_blank"
                 rel="noopener noreferrer"
                 >
