@@ -55,10 +55,10 @@ const ExperienceSection = () => {
   const volunteering = [
     {
       organization: "ICFAI Tech Entrepreneurship Club",
-      role: "Event Host",
-      duration: "Feb 2025 - Present",
-      description: "Coordinating engaging events and fostering collaboration.",
-      impact: "Strengthened community engagement through events and networking."
+      role: "President",
+      duration: "Aug 2025 - Present",
+      description: "Mentoring peers & leading entrepreneurial growth",
+      impact: "Strengthened campus startup ecosystem through collaboration."
     },
     {
       organization: "Excuria Club, IFHE University",
