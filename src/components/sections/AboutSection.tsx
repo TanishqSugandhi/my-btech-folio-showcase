@@ -1,18 +1,18 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { Eye, Code, Brain, Shield, Wifi } from "lucide-react";
+import { Eye, Cpu, Brain, Shield, Wifi } from "lucide-react";
 
 const AboutSection = () => {
   const interests = [
-    { icon: Code, title: "UI/UX Design", description: "UI/UX with wireframes, prototypes, and tools." },
+    { icon: Cpu, title: "Embedded Systems", description: "Designing and programming microcontrollers, sensors, and hardware interfaces." },
     { icon: Brain, title: "Machine Learning", description: "AI/ML algorithms and data science" },
     { icon: Shield, title: "Drone Security", description: "Securing drones from hijacking and data breaches." },
     { icon: Wifi, title: "IoT", description: "Internet of Things and embedded systems" },
   ];
 
   const technologies = [
-    "Python (Learning Actively)", "TypeScript (Exploring)", "Git", "C/C++",
-    "Docker (Currently Exploring)", "TensorFlow (Exploring)", "AWS (Basic deployment)", "Linux (Exploring)"
+    "Python (Learning Actively)", "TypeScript (Exploring)", "C/C++",
+    "Embedded System (Currently Exploring)", "Docker (Exploring)", "TensorFlow (Exploring)", "AWS (Basic deployment)", "Linux (Exploring)"
   ];
 
   return (
@@ -36,22 +36,22 @@ const AboutSection = () => {
             <div className="space-y-6 animate-fade-in">
               <Card className="shadow-elegant">
                 <CardContent className="p-6">
-                  <h3 className="text-xl font-semibold mb-4">My Journey</h3>
+                  <h3 className="text-xl font-semibold mb-4">The Journey So Far</h3>
                   <div className="space-y-4 text-muted-foreground">
                     <p>
                       I'm Tanishq Sugandhi, a 2nd-year B.Tech Electronics and Communication Engineering student at 
                       <span className="text-primary font-medium"> IFHE University</span>. 
                       What started as curiosity about technology has
-                      grown into a passion for building real-world
+                      evolved into a passion for building real-world
                       solutions using drones, AI, and innovation.
                     </p>
                     <p>
                       Currently maintaining a <span className="text-primary font-medium">CGPA of 6.1</span>, 
                       I actively engage in tech events, hackathons, and innovation-driven projects, 
                       <br />
-                      constantly seeking real-world opportunities to apply and 
+                      constantly seeking real-world opportunities to apply my knowledge and 
                       <br />
-                      expand my skills beyond theory.
+                      expand my skills beyond classroom.
                     </p>
                   </div>
                 </CardContent>
@@ -83,8 +83,8 @@ const AboutSection = () => {
                   <h3 className="text-xl font-semibold mb-4">Leadership & Clubs</h3>
                   <div className="space-y-3">
                     <div className="border-l-4 border-primary pl-4">
-                      <h4 className="font-medium">Core Team Member</h4>
-                      <p className="text-sm text-muted-foreground">ICFAI Tech Entrepreneurship Club</p>
+                      <h4 className="font-medium">Student Co-Ordinator</h4>
+                      <p className="text-sm text-muted-foreground">Kalam's Institute of Youth Excellence (KIYE)</p>
                     </div>
                     {/* <div className="border-l-4 border-primary pl-4"> */}
                     {/* <h4 className="font-medium">Core Team Member</h4> */}
