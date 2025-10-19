@@ -48,10 +48,10 @@ const HeroSection = () => {
             </p>
 
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-             B.Tech Electronics and Communication Engineering student transforming ideas into real-world solutions. <br />
-              Bridging hardware and software, I build innovative projects <br />
-              with Embedded systems, AI, and modern web technologies <br />
-              to shape the future of technology.
+             B.Tech Electronics and Communication Engineering student transforming ideas <br />
+             into real-world solutions. Bridging hardware and software, I build <br />
+             innovative projects with Embedded systems, AI, and modern web technologies <br />
+             to shape the future of technology.
             </p>
 
             {/* Social Links */}
