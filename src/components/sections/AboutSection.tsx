@@ -48,8 +48,8 @@ const AboutSection = () => {
                     <p>
                       Currently maintaining a <span className="text-primary font-medium">CGPA of 6.1</span>, 
                       I actively engage in tech events, hackathons, and innovation-driven projects,
-                      constantly seeking real-world opportunities to apply my knowledge and
-                      expand my skills beyond classroom.
+                      constantly seeking real-world opportunities to apply my 
+                      knowledge and expand my skills beyond classroom.
                     </p>
                   </div>
                 </CardContent>
