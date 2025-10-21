@@ -5,6 +5,33 @@ import { Trophy, Award, Medal, Star, Lightbulb, GraduationCap, Calendar } from "
 const AchievementsSection = () => {
   const achievements = [
     {
+      title: "1st Place – Internal Hackathon Round",
+      organization: "Smart India Hackathon (SIH) 2025",
+      date: "September 2025",
+      description: "Recognized for developing a working prototype addressing a real-world challenge.",
+      icon: Trophy,
+      type: "Competition",
+      color: "text-yellow-600"
+    },
+    {
+      title: "1st Place - ProtoVision",
+      organization: "ICFAI Tech School",
+      date: "September 2025",
+      description: "1st place for 'Rural Health Connect' — an AI platform improving rural healthcare access.",
+      icon: Trophy,
+      type: "Competition",
+      color: "text-yellow-600"
+    },
+    {
+      title: "2nd Place - First Principles: Redefining Products with AI",
+      organization: "Department of Computer Science and Engineering at IcfaiTech, Hyderabad",
+      date: "August 2025",
+      description: "AI-powered platform bridging skills, learning, and industry opportunities.",
+      icon: Trophy,
+      type: "Ideathon",
+      color: "text-yellow-600"
+    },
+    {
       title: "2nd Place - Design Thinking Workshop & Hackathon",
       organization: "ICFAI Tech School",
       date: "March 2025",
@@ -23,10 +50,10 @@ const AchievementsSection = () => {
       color: "text-red-600"
     },
     {
-      title: "Smart India Hackathon 2024 – Internal Hackathon Winner",
-      organization: "ICFAI Foundation for Higher Education, ICFAI Tech",
+      title: "Qualified - Internal Hackathon Round",
+      organization: "Smart India Hackathon (SIH) 2024",
       date: "September 2024",
-      description: "Selected for national round based on internal hackathon performance.",
+      description: "Selected for next round based on internal hackathon performance.",
       icon: Lightbulb,
       type: "Competition",
       color: "text-orange-600"
