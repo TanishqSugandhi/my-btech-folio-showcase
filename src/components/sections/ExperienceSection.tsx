@@ -5,9 +5,23 @@ import { Briefcase, Users, Calendar, MapPin } from "lucide-react";
 const ExperienceSection = () => {
   const internships = [
     {
+  "company": "VAAYU Robotics",
+  "role": "R&D Intern – Embedded Systems",
+  "duration": "Sep 2025 - Present",
+  "location": "Remote",
+  "type": "Internship",
+  "description": "Assisting in designing, developing, and testing embedded systems and firmware integration.",
+  "technologies": ["Microcontrollers", "Firmware Development", "Embedded Systems", "Hardware-Software Integration", "Code Documentation"],
+  "achievements": [
+    "Contributing to prototyping and debugging of embedded projects",
+    "Researching innovative embedded technologies and industry practices",
+    "Collaborating with R&D team for effective project execution"
+  ]
+},
+    {
       company: "VISWAM.AI",
       role: "AI Developer Intern",
-      duration: "Jun 2025 - Present",
+      duration: "Jun 2025 - Aug 2025",
       location: "Hyderabad, India",
       type: "Internship",
       description: "Contributing to AI development as part of the prestigious Summer of AI 2025 program organized by VISWAM.AI, in collaboration with Swecha, IIIT Hyderabad, Meta, and HSEA. Focused on building AI-powered applications and real-world solutions through collaborative learning and innovation.",
@@ -21,7 +35,7 @@ const ExperienceSection = () => {
     {
       company: "Codveda Technologies",
       role: "C/C++ Developmment Intern",
-      duration: "Aug 2025 - Present",
+      duration: "Aug 2025 - Sept 2025",
       location: "Remote",
       type: "Internship",
       description: "C/C++ Development Intern at Codveda Technologies, contributing to systems programming and optimization.",
@@ -54,12 +68,26 @@ const ExperienceSection = () => {
 
   const volunteering = [
     {
-      organization: "ICFAI Tech Entrepreneurship Club",
-      role: "President",
-      duration: "Aug 2025 - Present",
-      description: "Mentoring peers & leading entrepreneurial growth",
-      impact: "Strengthened campus startup ecosystem through collaboration."
-    },
+    organization: "Kalam's Institute of Youth Excellence (KIYE)",
+    role: "Student Co-Ordinator",
+    duration: "Aug 2025 - Present",
+    description: "Organize student projects, workshops, and seminars with experts.",
+    impact: "Built networks with DRDO & ISRO; empowered students with hands-on projects."
+  },
+    {
+    organization: "ICFAI Tech Entrepreneurship Club",
+    role: "President",
+    duration: "Aug 2025 - Sept 2025",
+    description: "Mentored peers & led entrepreneurial growth",
+    impact: "Strengthened campus startup ecosystem through collaboration."
+  },
+  {
+    organization: "ICFAI Tech Entrepreneurship Club",
+    role: "Host",
+    duration: "Feb 2025 - Aug 2025",
+    description: "Hosted events and guided peers in entrepreneurship",
+    impact: "Fostered engagement and collaboration in campus startups."
+  },
     {
       organization: "Excuria Club, IFHE University",
       role: "Volunteer at TEDxICFAI",
