@@ -39,7 +39,14 @@ const ExperienceSection = () => {
       location: "Remote",
       type: "Internship",
       description: "C/C++ Development Intern at Codveda Technologies, contributing to systems programming and optimization.",
-      technologies: ["C/C++"]
+      technologies: ["C/C++"],
+    "achievements": [
+    "Developed multiple C programs from beginner to advanced levels",
+    "Implemented data structures and algorithms for real-world scenarios",
+    "Created multithreaded simulations like Producer-Consumer problem",
+    "Built file handling systems and console-based projects like Tic-Tac-Toe",
+    "Gained practical experience in problem-solving, memory management, and synchronization"
+  ]
     },
     {
       company: "TechFest, IIT Bombay",
