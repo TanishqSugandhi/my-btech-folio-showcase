@@ -85,7 +85,7 @@ const ExperienceSection = () => {
     organization: "ICFAI Tech Entrepreneurship Club",
     role: "Host",
     duration: "Feb 2025 - Aug 2025",
-    description: "Hosted events and guided peers in entrepreneurship",
+    description: "Guided peers in entrepreneurship",
     impact: "Fostered engagement and collaboration in campus startups."
   },
     {
