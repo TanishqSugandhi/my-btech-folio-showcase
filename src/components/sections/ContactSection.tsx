@@ -47,7 +47,7 @@ const ContactSection = () => {
     {
   icon: Whatsapp,
   label: "Whatsapp",
-  username: "+918985473086X", 
+  username: "+918985473086", 
   href: "https://wa.me/918985473086", 
   color: "text-green-600",
   bgColor: "bg-green-100 hover:bg-green-200"
