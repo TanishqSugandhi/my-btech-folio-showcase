@@ -43,15 +43,7 @@ const ContactSection = () => {
       href: "https://www.linkedin.com/in/tanishq-sugandhi19/",
       color: "text-blue-600",
       bgColor: "bg-blue-100 hover:bg-blue-200"
-    },
-    {
-  icon: Whatsapp,
-  label: "Whatsapp",
-  username: "+918985473086", 
-  href: "https://wa.me/918985473086", 
-  color: "text-green-600",
-  bgColor: "bg-green-100 hover:bg-green-200"
-}
+    }
   ];
 
   return (
