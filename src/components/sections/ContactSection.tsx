@@ -1,6 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Mail, Linkedin, Instagram, Phone, MapPin, Github } from "lucide-react";
+import { Mail, Linkedin, Whatsapp, Phone, MapPin, Github } from "lucide-react";
 
 const ContactSection = () => {
   const contactInfo = [
@@ -45,13 +45,13 @@ const ContactSection = () => {
       bgColor: "bg-blue-100 hover:bg-blue-200"
     },
     {
-      icon: Instagram,
-      label: "Instagram",
-      username: "@tanishq.sugandhi",
-      href: "https://www.instagram.com/tanishq.sugandhi/",
-      color: "text-pink-600",
-      bgColor: "bg-pink-100 hover:bg-pink-200"
-    }
+  icon: Whatsapp,
+  label: "Whatsapp",
+  username: "+918985473086X", 
+  href: "https://wa.me/918985473086", 
+  color: "text-green-600",
+  bgColor: "bg-green-100 hover:bg-green-200"
+}
   ];
 
   return (
